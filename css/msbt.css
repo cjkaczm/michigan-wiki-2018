@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family: 'Oxygen', sans-serif !important;}
+body,.body {font-family: 'Sumana', serif !important; line-height:normal !important}
+.active {color:red;}
+.gray {color:#6A6A6A;}
+.subtitle {color:black !important;font-weight:bold;}
+a {cursor:pointer;}
+
+.page1 {
+	background-image:url(../images/photo.png);
+	background-color:white;
+	background-size:cover;
+	z-index:-5;
+	height:100vh;
+}
+
+.page2 {
+	background-color:#FFFFFF;
+	z-index:-5;
+	height:100vh;
+}
+
+.homelogo {
+	width:50%;
+	min-width:350px;
+	margin-top:28vh;
+}
+
+.logo {
+	width:250px;
+	padding-top:15px;
+	float:right;
+}
+
+#pageContainer {
+	top: 20px;
+	position: relative;
+}
+
+.content {
+	overflow:scroll;
+	height:inherit;
+}
+
+.bottom {
+	width: inherit;
+	bottom: 0px;
+	position: fixed;
+	cursor: pointer;
+	background: -moz-linear-gradient(to right, #27B8E5, #27E53F);
+	background: -webkit-linear-gradient(to right, #27B8E5, #27E53F);
+	background: linear-gradient(to right, #27B8E5, #27E53F);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5000', endColorstr='#0000e5ff',GradientType=1 );
+	border-radius: 4px 4px 0 0;
+}
+
+.person {
+	padding-top:40px;
+	width:100%;
+}
+
+.f2black {
+    background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, black); /* Standard syntax */
+}
+
+.teampic {
+	min-width:200px;
+	width:200px;
+}
+
+.teamtable td {
+	padding:10px;
+}
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: red;
+}
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
+
+.profpic {
+	width:40%;
+	margin:auto;
+	display:block;
+}
+
+.personDescription {
+	display:none;
+}
+
+#slideshow { 
+	display: block;
+    margin: auto; 
+    position: relative;
+	height:50vh;
+}
+#slideshow > div { 
+	margin:auto;
+	display:block;
+    position: absolute; 
+}
+#slideshow > div > img {
+	height:50vh;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+.partBox {
+	border:solid;
+	border-color:red;
+}
+
+#sidebar {
+	overflow:scroll;
+}
+
+.part-image{
+	display: block;
+	margin: auto;
+	max-width: 40%;
+}
+
+.part-image-dual{
+	max-width: 40%;
+}
+
+.part-image-landscape{
+	display: block;
+	margin: auto;
+	max-width: 90%;
+}
+
+.part-image-box{
+	display: block;
+	margin: auto;
+}
+
+.construct-image{
+	float: left;
+	display: inline-block;
+	margin: auto;
+	align: left;
+	max-width: 55%;
+
+.attributions-item {
+	/*border: 1px solid black;*/
+	list-style-type: disc;
+	font-size: 65%;
+}
+
+li span {
+	font-size: 14px;
+}
