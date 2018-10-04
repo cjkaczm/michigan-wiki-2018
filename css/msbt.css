@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family: 'Oxygen', sans-serif !important;}
-body,.body {font-family: 'Sumana', serif !important; line-height:normal !important}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family: 'Dosis', sans-serif;}
+body,.body {font-family: 'Arimo', sans-serif; line-height:normal !important}
 .active {color:red;}
 .gray {color:#6A6A6A;}
-.subtitle {color:black !important;font-weight:bold;}
+.subtitle {color:black; font-weight:bold;}
 a {cursor:pointer;}
 
 .page1 {
@@ -24,7 +24,17 @@ a {cursor:pointer;}
 .homelogo {
 	width:50%;
 	min-width:350px;
-	margin-top:28vh;
+	margin-top:0;
+}
+
+#home-subtitle-big {
+	color: #FFF;
+	font-family: 'Dosis', sans-serif;
+}
+
+#home-subtitle-small {
+	color: #FFF;
+	font-family: 'Dosis', sans-serif;
 }
 
 .logo {
