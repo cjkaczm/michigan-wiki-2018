@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Team Michigan: Improve</title>
+<link href="css/msbt.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/msbt.js"></script>
+</head>
+
+<body onLoad="loadBody();">
+	<div class="container-float page2">
+		<div class="container" id="pageContainer">
+
+			<div class="col-md-10 content">
+
+				<h2>Improved Parts</h2>
+
+				<table style="width:100%">
+                    <tr style="font-weight:bold; text-decoration:underline">
+                    <td>Name</td><td>Type</td><td>Description</td><td>Designer</td><td>Length</td>
+                    </tr>
+                    <tr>
+                    <td><a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K2301000">BBa_K2301000</a></td>
+                    <td>Coding</td>
+                    <td>We don't actually have parts yet</td>
+                    <td>Thomas Stewart (probably)</td>
+                    <td>663</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-md-2 h5">
+                    <nav class="navbar h5" id="sidebar">
+                        <ul class="nav nav-stacked">
+                            <li onClick="go('Parts')"><a class="subtitle">Parts</a></li>
+                            <li onClick="go('Basic_Part')"><a class="subtitle">Basic Parts</a></li>
+                            <li onClick="go('Composite_Part')"><a class="subtitle">Composite Parts</a></li>
+                            <li onClick="go('Part_Collection')"><a class="subtitle">Parts Collection</a></li>
+                            <li onClick="go('Improve')"><a class="subtitle">Improved Parts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+		<ul class="nav nav-tabs bottom" id="nav">
+			<li onClick="go('index')"><a class="subtitle">GACCA</a></li>
+			<li onClick="go('Description')"><a class="subtitle">Project</a></li>
+			<li onClick="go('Team')"><a class="subtitle">The Team</a></li>
+			<li onClick="go('Human_Practices')"><a class="subtitle">Human Practices</a></li>
+			<li onClick="go('Parts')"><a class="subtitle">Parts</a></li>
+			<li onClick="go('Model')"><a class="subtitle">Modelling</a></li>
+			<li onClick="go('Safety')"><a class="subtitle">Safety</a></li>
+			<li onClick="go('Collaborations')"><a class="subtitle">Collaborations</a></li>
+			<li onClick="go('Attributions')"><a class="subtitle">Attributions</a></li>
+			<!--<li onClick="window.open('http://2017.igem.org')"><a class="subtitle">igem</a></li>-->
+		</ul>
+
+		</div> <!--End container-->
+	</div> <!--End container-float-->
+
+</body>
+</html>

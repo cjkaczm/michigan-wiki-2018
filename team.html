@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Team Michigan: Safety</title>
+<link href="css/msbt.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/msbt.js"></script>
+</head>
+
+<body onLoad="loadBody();">
+	<div class="container-float page2">
+		<div class="container" id="pageContainer">
+
+			<div class="col-md-12 content">
+
+				<img src="images/photo.png" width="100%" style="z-index:5" />
+				<br><br>
+
+				<table class="teamtable">
+					<tr>
+						<td>
+							<img src="images/dany.png" class="teampic img-thumbnail" /><br>
+						</td>
+						<td>
+							<h2>Dany Lewin</h2>
+							<h4>Actually The Team </h4>
+							<p class="personDescription">Daniela Lewin is a senior in the Cellular and Molecular Biology and Biomedical Engineering joint program at the University of Michigan. She is currently an advisor, but is absolutely saving our butts right now.</p>
+						</td>
+					</tr>
+				</table>
+				<br>
+
+				<script>
+					$('.teampic').hover(function() {
+						$(this).css('min-width','300px'); 
+						$(this).css('width','300px'); 
+						$(this).parent().parent().children().children('.personDescription').fadeIn();
+					}, function() {
+						$(this).css('min-width','200px');
+						$(this).css('width','200px');  
+						$(this).parent().parent().children().children('.personDescription').fadeOut();
+					});
+				</script>
+
+			</div>
+
+		<ul class="nav nav-tabs bottom" id="nav">
+			<li onClick="go('index')"><a class="subtitle">GACCA</a></li>
+			<li onClick="go('Description')"><a class="subtitle">Project</a></li>
+			<li onClick="go('Team')"><a class="subtitle">The Team</a></li>
+			<li onClick="go('Human_Practices')"><a class="subtitle">Human Practices</a></li>
+			<li onClick="go('Parts')"><a class="subtitle">Parts</a></li>
+			<li onClick="go('Model')"><a class="subtitle">Modelling</a></li>
+			<li onClick="go('Safety')"><a class="subtitle">Safety</a></li>
+			<li onClick="go('Collaborations')"><a class="subtitle">Collaborations</a></li>
+			<li onClick="go('Attributions')"><a class="subtitle">Attributions</a></li>
+			<!--<li onClick="window.open('http://2017.igem.org')"><a class="subtitle">igem</a></li>-->
+		</ul>
+
+		</div> <!--End container-->
+	</div> <!--End container-float-->
+
+</body>
+</html>
